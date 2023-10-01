@@ -1,0 +1,47 @@
+Exercise:
+
+Multiple of Three
+You are given two 
+-element arrays 
+ and 
+, indexed from 
+ to 
+, that contain as values integers between 
+ and 
+. You are a playing a game in which you start with a pawn at index 
+. If your pawn is at some point at index 
+, you can move it to index 
+. Your goal is to arrive at an index where 
+ is a multiple of 
+.
+
+Return the number of moves that you must make to arrive at such an index, or return 
+ if you can never arrive at such an index. Note that, if 
+ is already a multiple of 
+, the answer is 
+.
+
+For example, for 
+, 
+, 
+, and 
+, the answer is 
+ (you move from index 
+ to index 
+ to index 
+ to index 
+). On the other hand, for 
+, 
+, 
+, and 
+, the answer is 
+.
+
+You need to implement your solution as a method getNumberMoves(
+, 
+, 
+, 
+) in the file Main.java. You get one point for each passing test set. To pass both test sets, your solution needs to run in time 
+.
+
+Attention: You are NOT allowed to use imports explicitly or implicitly, other than the imports already included in the code template.
